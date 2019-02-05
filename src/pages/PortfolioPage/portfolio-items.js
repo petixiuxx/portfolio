@@ -1,58 +1,250 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import ScrollToNext from '@components/ScrollToNext';
-import './style.scss';
 
-const AboutPage = (props, context) => {
-  const {
-    theme: { colorPrimary, colorHighlight, bgPrimary, textPrimary }
-  } = context;
-
-  return (
-    <div className="about-page" style={{ backgroundColor: bgPrimary }}>
-      <style jsx="true">
-        {`
-          .highlight {
-            background-color: ${colorHighlight};
-          }
-          ::selection {
-            background-color: ${colorHighlight};
-          }
-        `}
-      </style>
-      <div className="content-grid">
-        <h1 style={{ color: colorPrimary }}>About</h1>
-        <div className="about-wrapper">
-          <div className="about-content" style={{ color: textPrimary }}>
-            <p>
-              My interest are <span className="highlight">JavaScript</span> and
-              everything web.
-            </p>
-            <p>
-              I keen on reading about <span className="highlight">Functional programming</span>, new trends.
-              My favourite stack of technologies are <span className="highlight">React</span>, <span className="highlight">GraphQl</span>, <span className="highlight">NodeJs</span>   
-            </p>
-            <p>
-              I have used many UI libraries likes <span className="highlight">Bootstrap React</span>, <span className="highlight">Semantic UI</span>, <span className="highlight">styled-components</span>,
-              especially <span className="highlight">Material UI</span>
-            </p>
-            <p>
-              In my free time, I learn about new stuffs like <span className="highlight">Docker</span>, <span className="highlight">CI/CD</span>, <span className="highlight">Firebase</span>
-              . Sometime, I try to build something with these technologies
-            </p>
-            <p className="text-emoji" style={{ color: colorPrimary }}>
-              \ (•?•) /
-            </p>
-          </div>
+export default [
+  {
+    name: 'Firebase Boilerplate',
+    render: (
+      <div className='portfolio-item'>
+        <div className='portfolio-item__title'>
+        Firebase Boilerplate
+        </div>
+        <div className='portfolio-item__desc'>
+        Boilerplate implements Firebase with React which already included authentication and authorization
+        </div>
+        <div className='portfolio-item__icon'>
+          <i className="fab fa-js"></i>
+          <i className="fab fa-npm"></i>
+        </div>
+        <div className='portfolio-item__links'>
+          {/* <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a> */}
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/petixiuxx/react-firebase-boilerplate">More</a>
         </div>
       </div>
-      <ScrollToNext pageSelector=".portfolio-page" />
-    </div>
-  );
-};
-
-AboutPage.contextTypes = {
-  theme: PropTypes.any
-};
-
-export default AboutPage;
+    )
+  },
+  {
+    name: 'Default',
+    render: (
+      <div className='portfolio-item'>
+        <div className='portfolio-item__title'>
+        Default
+        </div>
+        <div className='portfolio-item__desc'>
+        Default
+        </div>
+        <div className='portfolio-item__icon'>
+          <i className="fab fa-js"></i>
+          <i className="fab fa-npm"></i>
+        </div>
+        {/* <div className='portfolio-item__links'>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/typy">More</a>
+        </div> */}
+      </div>
+    )
+  },
+  {
+    name: 'Default',
+    render: (
+      <div className='portfolio-item'>
+        <div className='portfolio-item__title'>
+        Default
+        </div>
+        <div className='portfolio-item__desc'>
+        Default
+        </div>
+        <div className='portfolio-item__icon'>
+          <i className="fab fa-js"></i>
+          <i className="fab fa-npm"></i>
+        </div>
+        {/* <div className='portfolio-item__links'>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/typy">More</a>
+        </div> */}
+      </div>
+    )
+  },
+  {
+    name: 'Default',
+    render: (
+      <div className='portfolio-item'>
+        <div className='portfolio-item__title'>
+        Default
+        </div>
+        <div className='portfolio-item__desc'>
+        Default
+        </div>
+        <div className='portfolio-item__icon'>
+          <i className="fab fa-js"></i>
+          <i className="fab fa-npm"></i>
+        </div>
+        {/* <div className='portfolio-item__links'>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/typy">More</a>
+        </div> */}
+      </div>
+    )
+  },
+  {
+    name: 'Default',
+    render: (
+      <div className='portfolio-item'>
+        <div className='portfolio-item__title'>
+        Default
+        </div>
+        <div className='portfolio-item__desc'>
+        Default
+        </div>
+        <div className='portfolio-item__icon'>
+          <i className="fab fa-js"></i>
+          <i className="fab fa-npm"></i>
+        </div>
+        {/* <div className='portfolio-item__links'>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/typy">More</a>
+        </div> */}
+      </div>
+    )
+  },
+  {
+    name: 'Default',
+    render: (
+      <div className='portfolio-item'>
+        <div className='portfolio-item__title'>
+        Default
+        </div>
+        <div className='portfolio-item__desc'>
+        Default
+        </div>
+        <div className='portfolio-item__icon'>
+          <i className="fab fa-js"></i>
+          <i className="fab fa-npm"></i>
+        </div>
+        {/* <div className='portfolio-item__links'>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/typy">More</a>
+        </div> */}
+      </div>
+    )
+  },
+  
+//   {
+//   name: 'typy',
+//   render: (
+//     <div className='portfolio-item'>
+//       <div className='portfolio-item__title'>
+//         Typy
+//       </div>
+//       <div className='portfolio-item__desc'>
+//         JavaScript type checking library with a sweeter syntax
+//       </div>
+//       <div className='portfolio-item__icon'>
+//         <i className="fab fa-js"></i>
+//         <i className="fab fa-npm"></i>
+//       </div>
+//       <div className='portfolio-item__links'>
+//         <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a>
+//         <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/typy">More</a>
+//       </div>
+//     </div>
+//   )
+// }, {
+//   name: 'dev-landing-page',
+//   render: (
+//     <div className='portfolio-item'>
+//       <div className='portfolio-item__title'>
+//         Dev Landing Page
+//       </div>
+//       <div className='portfolio-item__desc'>
+//         Minimal landing page for developers
+//       </div>
+//       <div className='portfolio-item__icon'>
+//         <i className="fab fa-html5"></i>
+//         <i className="fab fa-css3"></i>
+//       </div>
+//       <div className='portfolio-item__links'>
+//         <a target="_blank" rel="noopener noreferrer" href="https://dev.to/flexdinesh/create-your-developer-landing-page-with-github-pages---42jk">Blog</a>
+//         <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/dev-landing-page">More</a>
+//       </div>
+//     </div>
+//   )
+// }, {
+//   name: 'react-redux-boilerplate',
+//   render: (
+//     <div className='portfolio-item'>
+//       <div className='portfolio-item__title'>
+//         React-Redux Boilerplate
+//       </div>
+//       <div className='portfolio-item__desc'>
+//         Boilerplate code setup with community best practices
+//       </div>
+//       <div className='portfolio-item__icon'>
+//         <i className="fab fa-react"></i>
+//         <i className="fab fa-js"></i>
+//       </div>
+//       <div className='portfolio-item__links'>
+//         <a target="_blank" rel="noopener noreferrer" href="https://dev.to/flexdinesh/react-redux-boilerplate-with-best-practices--2pp5">Blog</a>
+//         <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/react-redux-boilerplate">More</a>
+//       </div>
+//     </div>
+//   )
+// }, {
+//   name: 'npm-module-boilerplate',
+//   render: (
+//     <div className='portfolio-item'>
+//       <div className='portfolio-item__title'>
+//         NPM Module Boilerplate
+//       </div>
+//       <div className='portfolio-item__desc'>
+//          Boilerplate plate code to create and publish an NPM package
+//       </div>
+//       <div className='portfolio-item__icon'>
+//         <i className="fab fa-js"></i>
+//         <i className="fab fa-npm"></i>
+//       </div>
+//       <div className='portfolio-item__links'>
+//         <a target="_blank" rel="noopener noreferrer" href="https://dev.to/flexdinesh/publish-your-own-npm-package---5b71">Blog</a>
+//         <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/npm-module-boilerplate">More</a>
+//       </div>
+//     </div>
+//   )
+// }, {
+//   name: 'axios-retry-interceptor',
+//   render: (
+//     <div className='portfolio-item'>
+//       <div className='portfolio-item__title'>
+//         Axios Retry Interceptor
+//       </div>
+//       <div className='portfolio-item__desc'>
+//         Configurable Axios Interceptor to retry failed http calls.
+//       </div>
+//       <div className='portfolio-item__icon'>
+//         <i className="fab fa-js"></i>
+//       </div>
+//       <div className='portfolio-item__links'>
+//         <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/axios-retry-interceptor">More</a>
+//       </div>
+//     </div>
+//   )
+// }, {
+//   name: 'browser-or-node',
+//   render: (
+//     <div className='portfolio-item'>
+//       <div className='portfolio-item__title'>
+//         Browser or Node
+//       </div>
+//       <div className='portfolio-item__desc'>
+//         Javascript library to check the runtime JS env
+//       </div>
+//       <div className='portfolio-item__icon'>
+//         <i className="fab fa-js"></i>
+//         <i className="fab fa-npm"></i>
+//       </div>
+//       <div className='portfolio-item__links'>
+//         <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/browser-or-node">NPM</a>
+//         <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/browser-or-node">More</a>
+//       </div>
+//     </div>
+//   )
+// }
+]
