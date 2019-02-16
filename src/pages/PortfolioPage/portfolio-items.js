@@ -44,23 +44,23 @@ export default [
     )
   },
   {
-    name: 'Default',
+    name: 'Weather Aoo',
     render: (
       <div className='portfolio-item'>
         <div className='portfolio-item__title'>
-        Default
+        Weather App
         </div>
         <div className='portfolio-item__desc'>
-        Default
+        Weather App built with React Native powered by Expo. Please install Expo on your device then go to the link and scan the QR code to see the App
         </div>
         <div className='portfolio-item__icon'>
           <i className="fab fa-js"></i>
-          <i className="fab fa-npm"></i>
+          <span style={{ fontSize: "16px", color: "#fff", fontFamily: 'Open-sans'}}>Expo</span>
         </div>
-        {/* <div className='portfolio-item__links'>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/typy">More</a>
-        </div> */}
+        <div className='portfolio-item__links'>
+          <a target="_blank" rel="noopener noreferrer" href="https://expo.io/@petixiuxx/weather">Expo</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/petixiuxx/weather-app">More</a>
+        </div>
       </div>
     )
   },
