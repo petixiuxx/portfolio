@@ -44,7 +44,7 @@ export default [
     )
   },
   {
-    name: 'Weather Aoo',
+    name: 'Weather App',
     render: (
       <div className='portfolio-item'>
         <div className='portfolio-item__title'>
@@ -65,23 +65,23 @@ export default [
     )
   },
   {
-    name: 'Default',
+    name: 'Puzzle Game',
     render: (
       <div className='portfolio-item'>
         <div className='portfolio-item__title'>
-        Default
+        Puzzle Game
         </div>
         <div className='portfolio-item__desc'>
-        Default
+        A simple puzzle game created with React native and Expo
         </div>
         <div className='portfolio-item__icon'>
           <i className="fab fa-js"></i>
           <i className="fab fa-npm"></i>
         </div>
-        {/* <div className='portfolio-item__links'>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/typy">More</a>
-        </div> */}
+        <div className='portfolio-item__links'>
+          <a target="_blank" rel="noopener noreferrer" href="https://expo.io/@petixiuxx/Kaitou-puzzle">Expo</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/petixiuxx/puzzle-game">More</a>
+        </div>
       </div>
     )
   },
