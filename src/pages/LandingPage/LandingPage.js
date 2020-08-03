@@ -18,7 +18,7 @@ const LandingPage = (props, context) => {
         <div className="intro-wrapper">
           <div className="intro-name">Hi, I'm Thanh!</div>
           <div className="tagline">
-            Full Stack Developer | Ninja
+          Software Engineer
           </div>
           <SocialIcons />
         </div>

@@ -2,6 +2,69 @@ import React from 'react';
 
 export default [
   {
+    name: 'MNIST digit recognizer',
+    render: (
+      <div className='portfolio-item'>
+        <div className='portfolio-item__title'>
+        MNIST digit recognizer
+        </div>
+        <div className='portfolio-item__desc'>
+        Colab notebook of MNIST digit recognizer using two Fully-connected hidden layer 
+        </div>
+        <div className='portfolio-item__icon'>
+          <i className="fab fa-python"></i>
+          <i className="fab fa-google"></i>
+        </div>
+        <div className='portfolio-item__links'>
+          {/* <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a> */}
+          <a target="_blank" rel="noopener noreferrer" href="https://colab.research.google.com/drive/1vRht4scTUE5YR4Vh_Gf8HPAADdX9YQAG?usp=sharing">More</a>
+        </div>
+      </div>
+    )
+  },
+  {
+    name: 'MNIST digit recognizer',
+    render: (
+      <div className='portfolio-item'>
+        <div className='portfolio-item__title'>
+        Movie Recommender
+        </div>
+        <div className='portfolio-item__desc'>
+        Colab notebook of Movie Recommender using LSTM to extract historical information 
+        </div>
+        <div className='portfolio-item__icon'>
+        <i className="fab fa-python"></i>
+          <i className="fab fa-google"></i>
+        </div>
+        <div className='portfolio-item__links'>
+          {/* <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a> */}
+          <a target="_blank" rel="noopener noreferrer" href="https://colab.research.google.com/drive/1Tu5wHN5Bw-eCjTLZpy9btN51Mkvnmjvm?usp=sharing">More</a>
+        </div>
+      </div>
+    )
+  },
+  {
+    name: 'MNIST digit recognizer',
+    render: (
+      <div className='portfolio-item'>
+        <div className='portfolio-item__title'>
+        Cat/Dog Classifier
+        </div>
+        <div className='portfolio-item__desc'>
+        Cat/Dog Classifier using CNN architecture to capture pattern in cat/dog image
+        </div>
+        <div className='portfolio-item__icon'>
+        <i className="fab fa-python"></i>
+          <i className="fab fa-google"></i>
+        </div>
+        <div className='portfolio-item__links'>
+          {/* <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a> */}
+          <a target="_blank" rel="noopener noreferrer" href="https://colab.research.google.com/drive/1W6_gVbd2jyXDvP3PkY69J6hsHqb7URHU?usp=sharing">More</a>
+        </div>
+      </div>
+    )
+  },
+  {
     name: 'Firebase Boilerplate',
     render: (
       <div className='portfolio-item'>
@@ -85,48 +148,7 @@ export default [
       </div>
     )
   },
-  {
-    name: 'Default',
-    render: (
-      <div className='portfolio-item'>
-        <div className='portfolio-item__title'>
-        Default
-        </div>
-        <div className='portfolio-item__desc'>
-        Default
-        </div>
-        <div className='portfolio-item__icon'>
-          <i className="fab fa-js"></i>
-          <i className="fab fa-npm"></i>
-        </div>
-        {/* <div className='portfolio-item__links'>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/typy">More</a>
-        </div> */}
-      </div>
-    )
-  },
-  {
-    name: 'Default',
-    render: (
-      <div className='portfolio-item'>
-        <div className='portfolio-item__title'>
-        Default
-        </div>
-        <div className='portfolio-item__desc'>
-        Default
-        </div>
-        <div className='portfolio-item__icon'>
-          <i className="fab fa-js"></i>
-          <i className="fab fa-npm"></i>
-        </div>
-        {/* <div className='portfolio-item__links'>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a>
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/typy">More</a>
-        </div> */}
-      </div>
-    )
-  },
+  
   
 //   {
 //   name: 'typy',

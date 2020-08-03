@@ -1,11 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import ScrollToNext from '@components/ScrollToNext';
-import './style.scss';
+import React from "react";
+import PropTypes from "prop-types";
+import ScrollToNext from "@components/ScrollToNext";
+import "./style.scss";
 
 const AboutPage = (props, context) => {
   const {
-    theme: { colorPrimary, colorHighlight, bgPrimary, textPrimary }
+    theme: { colorPrimary, colorHighlight, bgPrimary, textPrimary },
   } = context;
 
   return (
@@ -25,20 +25,26 @@ const AboutPage = (props, context) => {
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
-              My interest are <span className="highlight">JavaScript</span> and
-              everything web.
+              My interest are <span className="highlight">JavaScript</span>{" "}
+              Web/Mobile development and{" "}
+              <span className="highlight">Python</span> for Machine learning
+              project.
             </p>
             <p>
-              I keen on reading about <span className="highlight">Functional programming</span>, new trends.
-              My favourite stack of technologies are <span className="highlight">React</span>, <span className="highlight">GraphQl</span>, <span className="highlight">NodeJs</span>   
+              I keen on reading about{" "}
+              <span className="highlight">Functional programming</span>, <span className="highlight">Machine learning</span>, <span className="highlight">Deep learning</span>, new
+              trends. My favourite framework of technologies are{" "}
+              <span className="highlight">Keras</span>,{" "}
+              <span className="highlight">Scikit-learn</span>
+              <span className="highlight">Reactjs</span>,{" "}
+              <span className="highlight">Nodejs</span>
             </p>
             <p>
-              I have used many UI libraries likes <span className="highlight">Bootstrap React</span>, <span className="highlight">Semantic UI</span>, <span className="highlight">styled-components</span>,
-              especially <span className="highlight">Material UI</span>
-            </p>
-            <p>
-              In my free time, I learn about new stuffs like <span className="highlight">Docker</span>, <span className="highlight">CI/CD</span>, <span className="highlight">Firebase</span>
-              . Sometime, I try to build something with these technologies
+              In my free time, I learn about new stuffs like{" "}
+              <span className="highlight">Docker</span>,{" "}
+              <span className="highlight">CI/CD</span>,{" "}
+              <span className="highlight">Firebase</span>. Sometime, I try to
+              build something with these technologies
             </p>
             <p className="text-emoji" style={{ color: colorPrimary }}>
               \ (•◡•) /
@@ -52,7 +58,7 @@ const AboutPage = (props, context) => {
 };
 
 AboutPage.contextTypes = {
-  theme: PropTypes.any
+  theme: PropTypes.any,
 };
 
 export default AboutPage;
